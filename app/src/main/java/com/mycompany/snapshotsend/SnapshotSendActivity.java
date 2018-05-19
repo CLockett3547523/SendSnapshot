@@ -24,7 +24,7 @@ public class SnapshotSendActivity extends MainActivity {
     /** Called when the activity is first created. */
     private BluetoothAdapter mBluetoothAdapter = null;
     static final UUID Snap_UUID = UUID.fromString("fa87c0d0-afac-11de-8a39-0800200c9a66");
-    static String address = "50:C3:00:00:00:00";
+    static String address = "00:25:ab:a6:bf:ff";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
